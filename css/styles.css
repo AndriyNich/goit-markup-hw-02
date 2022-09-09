@@ -73,7 +73,7 @@ body{
     color: var(--link-alternative-color)
 } 
 
-main{
+.section-all{
     background-color: var(--main-background-color);
 }
 
@@ -81,11 +81,11 @@ main{
     background-color: var(--footer-background-color);
 }
 
-h1 {
+.hero-title {
     color: var(--text-secondary-alternative-color);
 }
 
-.button {
+.btn {
     color: var(--button-text-color); 
     background-color: var(--button-background-color);
 }
