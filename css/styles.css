@@ -1,18 +1,22 @@
 :root {
     /* text color */
-    --text-title-color: #212121;
     --text-color: #757575;
+    --text-title-color: #212121;
     --text-alternative-color: #2196F3;
     --text-secondary-alternative-color: #FFFFFF;
     /* logo color */
     --logo-first-color: #2196F3;
     --logo-secondary-color: #000000;
     --logo-alternative-color: #FFFFFF;
-    /* link and button color */
+    /* button color */
     --button-text-color: #212121;
     --button-text-alternative-color: #FFFFFF;
     --button-background-color: #F5F4FA;
     --button-background-secondary-color: #2196F3;
+    /* link color */
+    --link-color: #212121;
+    --link-secondary-color: #757575;
+    --link-alternative-color: #2196F3; 
     --link-secondary-alternative-color: rgba(255, 255, 255, 0.6);
     /* background color */
     --body-background-color: #F5F5F5;
@@ -22,12 +26,97 @@
     --section-our-command-background-color: #F5F4F4;
 }   
 
+.list-none {
+    list-style: none;
+}
+
+.link-none {
+    text-decoration: none;
+}
+
 body{
     color: var(--text-color);
     background-color: var(--body-background-color);
 }
  
+.page-header {
+    background-color: var(--header-background-color);
+}
+
+.logo {
+    color: var(--logo-first-color)
+}
+
+.logo-header {
+    color: var(--logo-secondary-color)
+}
+
+.logo-footer {
+    color: var(--logo-alternative-color)
+}
+
+.menu-link {
+    color: var(--link-color);
+}
+
+.menu-link:hover, 
+.menu-link:focus {
+    color: var(--link-alternative-color)
+}
+
+.header-address {
+    color: var(--link-secondary-color);
+}
+
+.header-address:hover,
+.header-address:focus {
+    color: var(--link-alternative-color)
+} 
 
 main{
     background-color: var(--main-background-color);
+}
+
+.hero {
+    background-color: var(--footer-background-color);
+}
+
+h1 {
+    color: var(--text-secondary-alternative-color);
+}
+
+.button {
+    color: var(--button-text-color); 
+    background-color: var(--button-background-color);
+}
+
+.button:hover, 
+.button:focus {
+    color: var(--button-text-alternative-color); 
+    background-color: var(--button-background-secondary-color);
+}
+
+.title {
+    color: var(--text-title-color)
+}
+
+.our-command {
+    background-color: var(--section-our-command-background-color);
+}
+
+.page-footer {
+    background-color: var(--footer-background-color);
+}
+
+.footer-text {
+    color: var(--text-secondary-alternative-color)
+}
+
+.footer-link {
+    color: var(--link-secondary-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--link-alternative-color);
 }
