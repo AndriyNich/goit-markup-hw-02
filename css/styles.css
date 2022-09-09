@@ -100,7 +100,11 @@ h1 {
     color: var(--text-title-color)
 }
 
-.our-command {
+.text-hiden {
+    display: none
+}
+
+.alternative-background {
     background-color: var(--section-our-command-background-color);
 }
 
