@@ -1,126 +1,205 @@
 :root {
-    /* text color */
-    --text-color: #757575;
-    --text-title-color: #212121;
-    --text-alternative-color: #2196F3;
-    --text-secondary-alternative-color: #FFFFFF;
-    /* logo color */
-    --logo-first-color: #2196F3;
-    --logo-secondary-color: #000000;
-    --logo-alternative-color: #FFFFFF;
-    /* button color */
-    --button-text-color: #212121;
-    --button-text-alternative-color: #FFFFFF;
-    --button-background-color: #F5F4FA;
-    --button-background-secondary-color: #2196F3;
-    /* link color */
-    --link-color: #212121;
-    --link-secondary-color: #757575;
-    --link-alternative-color: #2196F3; 
-    --link-secondary-alternative-color: rgba(255, 255, 255, 0.6);
-    /* background color */
-    --body-background-color: #F5F5F5;
-    --header-background-color: #FFFFFF;
-    --main-background-color: #FFFFFF;
-    --footer-background-color: #2F303A;
-    --section-our-command-background-color: #F5F4F4;
-}   
+  /* text color */
+  --text-color: #757575;
+  --text-title-color: #212121;
+  --text-alternative-color: #2196f3;
+  --text-secondary-alternative-color: #ffffff;
+  /* logo color */
+  --logo-first-color: #2196f3;
+  --logo-secondary-color: #000000;
+  --logo-alternative-color: #ffffff;
+  /* button color */
+  --button-text-color: #212121;
+  --button-text-alternative-color: #ffffff;
+  --button-background-color: #f5f4fa;
+  --button-background-secondary-color: #2196f3;
+  /* link color */
+  --link-color: #212121;
+  --link-secondary-color: #757575;
+  --link-alternative-color: #2196f3;
+  --link-secondary-alternative-color: rgba(255, 255, 255, 0.6);
+  /* background color */
+  --background-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+}
 
 .list-none {
-    list-style: none;
+  list-style: none;
 }
 
 .link-none {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-body{
-    color: var(--text-color);
-    background-color: var(--body-background-color);
-}
- 
-.page-header {
-    background-color: var(--header-background-color);
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background-color: var(background-color);
 }
 
+/* Section Header */
 .logo {
-    color: var(--logo-first-color)
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-first-color);
 }
 
 .logo-header {
-    color: var(--logo-secondary-color)
+  color: var(--logo-secondary-color);
 }
 
 .logo-footer {
-    color: var(--logo-alternative-color)
+  color: var(--logo-alternative-color);
 }
 
 .menu-link {
-    color: var(--link-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
 }
 
-.menu-link:hover, 
+.menu-link:hover,
 .menu-link:focus {
-    color: var(--link-alternative-color)
+  color: var(--link-alternative-color);
 }
 
 .header-address {
-    color: var(--link-secondary-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-secondary-color);
 }
 
 .header-address:hover,
 .header-address:focus {
-    color: var(--link-alternative-color)
-} 
-
-.section-all{
-    background-color: var(--main-background-color);
+  color: var(--link-alternative-color);
 }
 
+/* Section body index.html */
 .hero {
-    background-color: var(--footer-background-color);
+  background-color: var(--footer-background-color);
 }
 
 .hero-title {
-    color: var(--text-secondary-alternative-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary-alternative-color);
 }
 
 .btn {
-    color: var(--button-text-color); 
-    background-color: var(--button-background-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-text-alternative-color);
+  background-color: var(--button-background-secondary-color);
 }
 
-.btn:hover, 
+.btn:hover,
 .btn:focus {
-    color: var(--button-text-alternative-color); 
-    background-color: var(--button-background-secondary-color);
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
 }
 
-.title {
-    color: var(--text-title-color)
+.caption-hiden {
+  display: none;
 }
 
-.text-hiden {
-    display: none
+.subject {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
-.alternative-background {
-    background-color: var(--section-our-command-background-color);
+.heading {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
+.subject,
+.heading {
+  font-weight: 700;
+}
+
+.team {
+  background-color: var(--team-background-color);
+}
+
+.fio {
+  font-weight: 500;
+}
+
+.fio,
+.txt {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.subject,
+.heading,
+.fio {
+  color: var(--text-title-color);
+}
+
+/* Section body portfolio.html */
+.btn-portfolio {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--button-text-alternative-color);
+  background-color: var(--button-background-secondary-color);
+}
+
+.card-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-title-color);
+}
+
+.card-txt {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* Section Footer */
 .page-footer {
-    background-color: var(--footer-background-color);
+  background-color: var(--footer-background-color);
 }
 
 .footer-text {
-    color: var(--text-secondary-alternative-color)
+  color: var(--text-secondary-alternative-color);
 }
 
 .footer-link {
-    color: var(--link-secondary-color);
+  color: var(--link-secondary-alternative-color);
 }
 
 .footer-link:hover,
 .footer-link:focus {
-    color: var(--link-alternative-color);
+  color: var(--link-alternative-color);
 }
