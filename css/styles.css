@@ -9,10 +9,10 @@
   --logo-secondary-color: #000000;
   --logo-alternative-color: #ffffff;
   /* button color */
-  --button-text-color: #212121;
-  --button-text-alternative-color: #ffffff;
-  --button-background-color: #f5f4fa;
-  --button-background-secondary-color: #2196f3;
+  --btn-text-color: #212121;
+  --btn-text-alternative-color: #ffffff;
+  --btn-background-color: #f5f4fa;
+  --btn-background-secondary-color: #2196f3;
   /* link color */
   --link-color: #212121;
   --link-secondary-color: #757575;
@@ -39,7 +39,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--text-color);
-  background-color: var(background-color);
+  background-color: var(--background-color);
 }
 
 /* Section Header */
@@ -111,14 +111,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--button-text-alternative-color);
-  background-color: var(--button-background-secondary-color);
+  color: var(--btn-text-alternative-color);
+  background-color: var(--btn-background-secondary-color);
 }
 
 .btn:hover,
 .btn:focus {
-  color: var(--button-text-color);
-  background-color: var(--button-background-color);
+  color: var(--btn-text-color);
+  background-color: var(--btn-background-color);
 }
 
 .caption-hiden {
@@ -172,14 +172,14 @@ body {
   line-height: 1.62;
   text-align: center;
 
-  color: var(--button-text-color);
-  background-color: var(--button-background-color);
+  color: var(--btn-text-color);
+  background-color: var(--btn-background-color);
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  color: var(--button-text-alternative-color);
-  background-color: var(--button-background-secondary-color);
+  color: var(--btn-text-alternative-color);
+  background-color: var(--btn-background-secondary-color);
 }
 
 .card-caption {
