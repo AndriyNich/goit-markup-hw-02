@@ -25,7 +25,14 @@
 }
 
 .list-none {
+  line-height: 0;
+  letter-spacing: 0em;
   list-style: none;
+}
+
+p {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .link-none {
@@ -105,6 +112,7 @@ body {
 .btn {
   cursor: pointer;
 
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -167,6 +175,7 @@ body {
 .btn-portfolio {
   cursor: pointer;
 
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -200,11 +209,22 @@ body {
   background-color: var(--footer-background-color);
 }
 
+.adr {
+  font-style: normal;
+}
+
 .footer-text {
+  font-style: normal;
+
   color: var(--text-secondary-alternative-color);
 }
 
 .footer-link {
+  font-style: normal;
+
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
   color: var(--link-secondary-alternative-color);
 }
 
