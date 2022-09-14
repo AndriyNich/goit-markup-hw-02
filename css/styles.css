@@ -25,12 +25,10 @@
 }
 
 .list-none {
-  line-height: 0;
-  letter-spacing: 0em;
   list-style: none;
 }
 
-p {
+.bs-txt {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -42,8 +40,6 @@ p {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--text-color);
   background-color: var(--background-color);
@@ -55,6 +51,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 
   color: var(--logo-first-color);
 }
@@ -102,8 +99,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
 
   color: var(--text-secondary-alternative-color);
@@ -112,12 +109,12 @@ body {
 .btn {
   cursor: pointer;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 
   color: var(--btn-text-alternative-color);
   background-color: var(--btn-background-secondary-color);
@@ -148,10 +145,7 @@ body {
 .subject,
 .heading {
   font-weight: 700;
-}
-
-.team {
-  background-color: var(--team-background-color);
+  letter-spacing: 0.03em;
 }
 
 .fio {
@@ -162,6 +156,7 @@ body {
 .txt {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -171,14 +166,19 @@ body {
   color: var(--text-title-color);
 }
 
+.team {
+  background-color: var(--team-background-color);
+}
+
 /* Section body portfolio.html */
 .btn-portfolio {
   cursor: pointer;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   text-align: center;
 
   color: var(--btn-text-color);
@@ -202,6 +202,7 @@ body {
 .card-txt {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
 /* Section Footer */
@@ -209,19 +210,16 @@ body {
   background-color: var(--footer-background-color);
 }
 
-.adr {
-  font-style: normal;
-}
-
 .footer-text {
   font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
   color: var(--text-secondary-alternative-color);
 }
 
 .footer-link {
   font-style: normal;
-
   line-height: 1.71;
   letter-spacing: 0.03em;
 
